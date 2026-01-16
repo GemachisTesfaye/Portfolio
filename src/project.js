@@ -213,7 +213,7 @@ const filteredProjects = projectsData.filter(p => {
 
 
   return (
-    <div className="relative min-h-screen transition-colors duration-500">
+    <div id="projects" className="relative min-h-screen transition-colors duration-500">
       <header className="pt-24 pb-12 px-6 max-w-7xl mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white mb-6 tracking-tight">
           My <span className="text-indigo-600">Projects</span>
