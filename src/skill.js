@@ -27,20 +27,22 @@ const Skill = () => {
 
   const skillsData = [
     {
-      title: 'Technical Stack',
-      description: 'Core technologies and development environments.',
-      showMetrics: true,
-      items: [
-        { name: 'HTML5', level: 95, color: '#E34F26', shadow: 'rgba(227, 79, 38, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg' },
-        { name: 'CSS3 / Responsive', level: 92, color: '#1572B6', shadow: 'rgba(21, 114, 182, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg' },
-        { name: 'JavaScript', level: 88, color: '#F7DF1E', shadow: 'rgba(247, 223, 30, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' },
-        { name: 'React.js', level: 85, color: '#61DAFB', shadow: 'rgba(97, 218, 251, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
-        { name: 'Python', level: 75, color: '#3776AB', shadow: 'rgba(55, 118, 171, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' },
-        { name: 'VS Code', level: 95, color: '#007ACC', shadow: 'rgba(0, 122, 204, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg' },
-        { name: 'Tailwind CSS', level: 90, color: '#06B6D4', shadow: 'rgba(6, 182, 212, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' },
-        { name: 'Git / GitHub', level: 85, color: '#F05032', shadow: 'rgba(240, 80, 50, 0.2)', img: 'https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png' }
-      ]
-    },
+ title: 'Technical Stack',
+    description: 'Core technologies and development environments.',
+    showMetrics: true,
+    items: [
+      { name: 'HTML5', level: 95, color: '#E34F26', shadow: 'rgba(227, 79, 38, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg' },
+      { name: 'CSS3 / Responsive', level: 92, color: '#1572B6', shadow: 'rgba(21, 114, 182, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg' },
+      { name: 'JavaScript', level: 75, color: '#F7DF1E', shadow: 'rgba(247, 223, 30, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' },
+      { name: 'React.js', level: 70, color: '#61DAFB', shadow: 'rgba(97, 218, 251, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+      { name: 'Python', level: 75, color: '#3776AB', shadow: 'rgba(55, 118, 171, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' },
+      { name: 'MySQL', level: 80, color: '#4479A1', shadow: 'rgba(68, 121, 161, 0.2)', img: 'https://logo.svgcdn.com/logos/mysql.svg' }, 
+      { name: 'MongoDB', level: 70, color: '#47A248', shadow: 'rgba(71, 162, 72, 0.2)', img: 'https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg' },
+      { name: 'Power BI', level: 70, color: '#F2C811', shadow: 'rgba(242, 200, 17, 0.2)', img: 'https://logo.svgcdn.com/logos/microsoft-power-bi.svg' },
+      { name: 'Tailwind CSS', level: 80, color: '#06B6D4', shadow: 'rgba(6, 182, 212, 0.2)', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' },
+      { name: 'Git / GitHub', level: 85, color: '#F05032', shadow: 'rgba(240, 80, 50, 0.2)', img: 'https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png' }
+    ]
+  },
     {
       title: 'Soft Skills & Management',
       description: 'Interpersonal strengths and leadership capabilities.',
