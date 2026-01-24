@@ -80,7 +80,7 @@ const App = () => {
       title: "Web Development",
       description: "Building fast, responsive websites from scratch using modern frontend technologies.",
       icon: <Code2 />,
-      features: ["React.js & Next.js", "Performance Tuning"],
+      features: ["React.js & Tailwind", "Performance Tuning"],
       color: "from-blue-600 to-indigo-500",
       lightBg: "bg-blue-50/30",
       darkBg: "dark:bg-blue-900/5",
@@ -165,7 +165,7 @@ const App = () => {
       <div className="max-w-4xl mx-auto mt-20">
         <div className="flex flex-wrap justify-center gap-3">
           {[
-            "React.js", "Next.js", "Tailwind", "SQL", "Analysis", "Design"
+            "React.js",  "Tailwind", "SQL", "NoSQL", "Analysis", "Design"
           ].map((tech) => (
             <div 
               key={tech} 
